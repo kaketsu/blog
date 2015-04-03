@@ -16,3 +16,25 @@
   color: rgba(193,49,0,0.8);
   min-height: 45px;
 }
+
+
+.example h3 {
+  font-family: 'Concert One', serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  color: #F8ECBF;
+  font-size: 40px;
+}
+
+
+code {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  clear: both;
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+}

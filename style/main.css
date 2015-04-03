@@ -1,0 +1,63 @@
+body{
+	background: #E9E9E9 url(../image/squairy_light.png) repeat;
+	font-family: Lato,"Microsoft YaHei",sans-serif;
+}
+
+#container{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+#header{
+	text-align: center;
+	width: 100%;
+}
+
+
+#wrapper{
+	width: 94%;
+	margin: 0px auto;
+}
+
+.article{
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
+	background: #fff;
+	padding: 25px 20px;
+}
+
+
+blockquote {
+	background: #aee2d9;
+	margin: 20px 0px;
+	padding: 10px;
+	border-color: #22c3aa;
+	border-width: 0px 0px 0px 7px;
+	border-style: solid;
+}
+
+blockquote h4 {
+	margin: 10px 0px;
+	color: #D26A44;
+}
+
+blockquote p{
+	margin: 10px 0px;
+}
+
+blockquote p em{
+	
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+#container{
+	width: 100%;
+
+}
+
+
+}

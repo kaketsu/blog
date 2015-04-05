@@ -1,13 +1,72 @@
 body{
 	background: #E9E9E9 url(../image/squairy_light.png) repeat;
 	font-family: Lato,"Microsoft YaHei",sans-serif;
+	font-size: 14px;
 }
 
 #container{
 	width: 80%;
-	max-width: 1000px;
+	max-width: 960px;
 	margin: 0px auto;
 }
+
+
+.breadcrumb{
+	box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 20px 3%;
+	background: #fff;
+}
+
+.breadcrumb a{
+	font-size: 12px;
+	line-height: 36px;
+	display: block;
+	padding: 0px 20px 0px 40px;
+	float: left;
+	background: #fff;
+	position: relative;
+	color: #000;
+
+	
+}
+
+.breadcrumb a:first-child{
+	padding-left: 30px;
+	border-radius: 5px 0px 0px 5px;
+}
+.breadcrumb a:last-child{
+
+}
+
+.breadcrumb a:after{
+	content: "";
+	width: 36px;
+	height: 36px;
+	background: #fff;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	right: -18px;
+	transform: scale(0.707) rotate(45deg);
+	border-radius: 0 5px 0 50px;
+	box-shadow: 2px -2px 0 2px rgba(0,0,0,0.3);
+}
+
+.breadcrumb a:last-child:after {
+	content: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 #header{
 	text-align: center;
@@ -21,10 +80,36 @@ body{
 }
 
 .article{
-	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.2);
 	background: #fff;
-	padding: 25px 20px;
+	padding: 25px 25px;
 	border-radius: 5px;
+}
+
+
+header.pageTitle{
+	color: rgb(102,102,102);
+	font-size: 28px;
+	font-family: Lato, "Microsoft YaHei",sans-serif;
+	border-bottom-style: double;
+	border-bottom-width: 8px;
+	border-bottom-color: hsl(120,40%,60%);
+	padding-bottom: 15px;
+}
+
+
+section.post_content h4{
+	margin: 15px 0px;
+}
+
+section.post_content p{
+	text-indent: 28px;
+	margin: 15px 0px;
+}
+
+section.post_content li{
+	
+	margin: 15px 0px;
 }
 
 
@@ -32,24 +117,28 @@ blockquote {
 	background-color: rgb(247, 247, 247);
 	margin: 20px 0px;
 	padding: 10px;
-	border-color: hsl(120,40%,60%);
-	border-width: 0px 0px 0px 3px;
-	border-style: solid;
+	border-left-color: hsl(120,40%,60%);
+	border-left-width: 3px;
+	border-left-style: solid;
 }
 
 blockquote h4 {
-	margin: 10px 0px;
+	margin: 15px 0px;
 	color: #D26A44;
 }
 
 blockquote p{
-	margin: 10px 0px;
+	margin: 15px 0px;
 }
 
 blockquote p em{
 	
 }
 
+pre{
+	background: rgb(246,246,246);
+	padding: 0px 20px;
+}
 
 
 

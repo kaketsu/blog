@@ -13,50 +13,73 @@
 				这个是总的最大的header，可以用来放导航栏和logo
 			</header>
 
+			<div class="breadcrumb">
+				<a href="#" class="active">首页</a>
+				<a href="#">前端开发</a>
+				<a href="#">CSS</a>
+			</div>
+
 
 			<div id="wrapper">
 
-			
-			<article class="article">
-				<div>
-					<header class="pageTitle">
-						This is my example Title
-					</header>
-					<div class="post_meta">
-						<span class="post_time"></span>
-						<span class="post_comment"></span>
-						<span class="view"></span>
-						<span></span>
+				<article class="article">
+					<div>
+						<header class="pageTitle">
+							Flexbox 设计指南
+						</header>
+						<div class="post_meta">
+							<span class="post_time">2015/4/4</span>
+							<span class="post_comment">100</span>
+							<span class="view">200</span>
+							<span></span>
+						</div>
+
+
+						<section class="post_content">
+							<h4>常规问题:</h4>
+
+							<li> 最近你学了什么？</li>
+							<li>	是什么激发你对编程的兴趣？</li>
+							<li>	你最近在挑战什么新技术、你是怎么解决遇到的问题？</li>
+							<li>	当你在构建Web应用程序或网站时，你会考虑什么样的用户界面、安全性、性能、SEO、可维护性、选用的技术？</li>
+							<li>谈谈你首选的开发环境（系统、编辑器或IDE、浏览器、工具等）</li>
+							<li>你熟悉什么版本控制系统？</li>
+							<li>请描述一下你创建一个网页的工作流程？</li>
+                            <li>如果有5个不同的样式表，怎样最好地整合到网站里？</li>
+							<li>请描述一下渐进增强和优雅降级的区别？</li>
+							<li>如何优化一个网站的资源？</li>
+							
+
+							<blockquote>
+								<p>世界上只有一种真正的英雄主义,就是认清了生活的真相后还依然热爱它。
+								</p>
+								<p class="source"><em>罗曼罗兰</em></p>
+
+							</blockquote>
+
+
+							
+							<pre>
+								
+								<code>
+a = "hello"
+
+[].map.call(a, (e) -> e.toUpperCase()) # => [ 'H', 'E', 'L', 'L', 'O' ]
+
+[].reduceRight.call(a, (acc, e) -> acc + e) # => 'olleh'
+
+b = {1: "a", 2: "b", 4: "c", length: 6}
+
+[].reduce.call(b, (acc, e) -> acc + e) # => 'abc'
+								</code>
+							</pre>
+
+						</section>
+
 					</div>
 
-
-					<section>
-						<h2>用H3的话，可以用Arctext中的Example来表示</h2>
-
-						<p>用来写正文之类</p>
-
-						<blockquote class="a">
-						    <h4>This h2</h4>
-							<p>世界上只有一种真正的英雄主义,就是认清了生活的真相后还依然热爱它。
-							</p>
-							<p class="source">From <em>罗曼罗兰</em></p>
-
-						</blockquote>
-
-						<div class="code">
-							<pre>
-								<h4>Example 1</h4>
-								<p>JS and HTML Code</p>
-								<code></code>
-							</pre>
-				</div>
-
-					</section>
-
-				</div>
-
 				
-			</article>
+				</article>
 
 			</div>
 		</div>
